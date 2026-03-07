@@ -15749,14 +15749,6 @@
       "pg" : 2,
       "sct" : 0
     },
-    "\/src\/error.kit" : {
-      "cB" : 1,
-      "ft" : 2048,
-      "hM" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/error.html",
-      "oF" : 0
-    },
     "\/src\/index.kit" : {
       "cB" : 1,
       "ft" : 2048,
@@ -15787,14 +15779,6 @@
       "hM" : 1,
       "oA" : 0,
       "oAP" : "\/dist\/stories\/terrence-kiel.html",
-      "oF" : 0
-    },
-    "\/src\/style-guide.kit" : {
-      "cB" : 1,
-      "ft" : 2048,
-      "hM" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/style-guide.html",
       "oF" : 0
     }
   },
