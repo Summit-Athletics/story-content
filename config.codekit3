@@ -301,6 +301,19 @@
       "oAP" : "\/dist\/assets\/media\/pages\/index\/header-vid-960.mp4",
       "oF" : 0
     },
+    "\/src\/assets\/media\/pages\/index\/story-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 27304,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/media\/pages\/index\/story-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 80,
+      "rq" : 75
+    },
     "\/src\/assets\/partials" : {
       "ft" : 65536,
       "oA" : 1,
@@ -15797,7 +15810,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/src\/assets\/media\/global\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 794611628.10468304
+    "lastBuiltDate" : 794612558.95714295
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
