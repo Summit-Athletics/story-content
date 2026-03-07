@@ -1,11 +1,11 @@
 {
     "workbench.colorCustomizations": {
-        "titleBar.activeBackground": "#2e4c6f", // Top window bar
-        "titleBar.inactiveBackground": "#2e4c6f99", // Top window bar inactive (add '99' to end of hex)
+        "titleBar.activeBackground": "#888888", // Top window bar
+        "titleBar.inactiveBackground": "#88888899", // Top window bar inactive (add '99' to end of hex)
         "titleBar.activeForeground": "#f1cb13", // Top window bar - text
-        "activityBarBadge.background": "#2e4c6f", // Side bar - badge icon background
+        "activityBarBadge.background": "#888888", // Side bar - badge icon background
         "activityBarBadge.foreground": "#f1cb13", // Side bar - badge text
-        "activityBar.activeBorder": "#2e4c6f" // Side bar - active indicator border
+        "activityBar.activeBorder": "#888888" // Side bar - active indicator border
     },
     "folder-color.pathColors": [
         {

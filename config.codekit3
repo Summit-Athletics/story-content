@@ -33,7 +33,7 @@
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/dist\/node_modules",
-      "oF" : 0
+      "oF" : 1
     },
     "\/package-lock.json" : {
       "ft" : 524288,
@@ -51,21 +51,13 @@
       "oO" : 0,
       "oS" : 1
     },
-    "\/src\/assets\/fonts\/bootstrap-icons.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/assets\/fonts\/bootstrap-icons.woff",
-      "oF" : 0
-    },
-    "\/src\/assets\/fonts\/bootstrap-icons.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/assets\/fonts\/bootstrap-icons.woff2",
-      "oF" : 0
+    "\/src\/assets\/data\/stories.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/dist\/assets\/data\/stories-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
     },
     "\/src\/assets\/js\/base\/_jquery-global.js" : {
       "bF" : 4,
@@ -15760,12 +15752,28 @@
       "oAP" : "\/dist\/index.html",
       "oF" : 0
     },
-    "\/src\/privacy-policy\/index.kit" : {
+    "\/src\/stories\/adam-sinn.kit" : {
       "cB" : 1,
       "ft" : 2048,
       "hM" : 1,
       "oA" : 0,
-      "oAP" : "\/dist\/privacy-policy\/index.html",
+      "oAP" : "\/dist\/stories\/adam-sinn.html",
+      "oF" : 0
+    },
+    "\/src\/stories\/leveon-moss.kit" : {
+      "cB" : 1,
+      "ft" : 2048,
+      "hM" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/stories\/leveon-moss.html",
+      "oF" : 0
+    },
+    "\/src\/stories\/terrence-kiel.kit" : {
+      "cB" : 1,
+      "ft" : 2048,
+      "hM" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/stories\/terrence-kiel.html",
       "oF" : 0
     },
     "\/src\/style-guide.kit" : {
@@ -15785,11 +15793,11 @@
   },
   "projectAttributes" : {
     "creationDate" : 499370232,
-    "displayValue" : "summit-codekit-starter",
+    "displayValue" : "story-content",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/src\/assets\/media\/global\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 792013839.88706398
+    "lastBuiltDate" : 794610515.09494603
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
