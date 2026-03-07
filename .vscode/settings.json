@@ -1,0 +1,36 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#2e4c6f", // Top window bar
+        "titleBar.inactiveBackground": "#2e4c6f99", // Top window bar inactive (add '99' to end of hex)
+        "titleBar.activeForeground": "#f1cb13", // Top window bar - text
+        "activityBarBadge.background": "#2e4c6f", // Side bar - badge icon background
+        "activityBarBadge.foreground": "#f1cb13", // Side bar - badge text
+        "activityBar.activeBorder": "#2e4c6f" // Side bar - active indicator border
+    },
+    "folder-color.pathColors": [
+        {
+            "folderPath": "package-lock.json/",
+            "color": "foldercolorizer.olive"
+        },
+        {
+            "folderPath": "package.json/",
+            "color": "foldercolorizer.olive"
+        },
+        {
+            "folderPath": ".gitignore/",
+            "color": "foldercolorizer.OrangeRed"
+        },
+        {
+            "folderPath": "src/assets/js/",
+            "color": "foldercolorizer.Gold"
+        },
+        {
+            "folderPath": "src/assets/partials/",
+            "color": "foldercolorizer.LightBlue"
+        },
+        {
+            "folderPath": "src/assets/scss/",
+            "color": "foldercolorizer.LightPink"
+        }
+    ]
+}

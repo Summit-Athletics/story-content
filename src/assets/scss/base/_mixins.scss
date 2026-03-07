@@ -1,0 +1,91 @@
+/* ============= BREAKPOINT-BETWEEN UTILITY ============= */
+// Media that spans multiple breakpoint widths, allowing custom values OR grid breakpoints.
+// Makes the @content apply between the min and max breakpoints OR custom pixel values
+@mixin media-breakpoint-between($lower, $upper, $breakpoints: $grid-breakpoints) {
+    $min: if(type-of($lower) == "string", breakpoint-min($lower, $breakpoints), $lower);
+    $max: if(type-of($upper) == "string", breakpoint-max($upper, $breakpoints), $upper);
+
+    @if $min != null and $max != null {
+        @media (min-width: $min) and (max-width: $max) {
+            @content;
+        }
+    } @else if $max == null {
+        @include media-breakpoint-up($lower, $breakpoints) {
+            @content;
+        }
+    } @else if $min == null {
+        @include media-breakpoint-down($upper, $breakpoints) {
+            @content;
+        }
+    }
+}
+
+/* ================== GRADIENT UTILITY ================== */
+/// Creates single or double layered gradient(s) using ::before (and ::after)
+///
+/// @param {Color} $color - Base gradient color (default: $primary)
+/// @param {String} $direction - First gradient direction (to - top/right/bottom/left - default: bottom)
+/// @param {Number} $stop-2-opacity - Opacity at stop 2 for first gradient (default: 0.95)
+/// @param {Percentage} $stop-2-percentage - Stop 2 position for first gradient (default: 10%)
+/// @param {Percentage} $stop-3-percentage - Stop 3 position for first gradient (default: 75%)
+/// @param {String|null} $second-direction - (Optional) second gradient direction
+/// @param {Number} $second-stop-2-opacity - Opacity at stop 2 for second gradient (default: 0.95)
+/// @param {Percentage} $second-stop-2-percentage - Stop 2 position for second gradient (default: 10%)
+/// @param {Percentage} $second-stop-3-percentage - Stop 3 position for second gradient (default: 75%)
+/// @param {Number} $z-index - (default: 0)
+///
+/// @example scss
+///   // Single gradient
+///   @include gradient($primary, right);
+///   // z-index override
+///   // @include gradient($primary, right, $z-index: 1);
+///
+///   // Dual gradient
+///   @include gradient($tertiary, right, 0.95, 8%, 60%, bottom, 0.85, 7%, 40%);
+///
+
+@mixin gradient(
+    $color: $primary,
+    $direction: bottom,
+    $stop-2-opacity: 0.95,
+    $stop-2-percentage: 10%,
+    $stop-3-percentage: 75%,
+    $second-direction: null,
+    $second-stop-2-opacity: 0.95,
+    $second-stop-2-percentage: 10%,
+    $second-stop-3-percentage: 75%,
+    $z-index: 0
+) {
+    position: relative;
+    isolation: isolate;
+
+    &::before {
+        position: absolute;
+        content: "";
+        inset: 0;
+        z-index: $z-index;
+        pointer-events: none;
+    }
+
+    &::before {
+        background: linear-gradient(to #{$direction}, rgba($color, 1) 0%, rgba($color, $stop-2-opacity) $stop-2-percentage, rgba($color, 0) $stop-3-percentage);
+    }
+
+    @if $second-direction != null {
+        &::after {
+            position: absolute;
+            content: "";
+            inset: 0;
+            background: linear-gradient(to #{$second-direction}, rgba($color, 1) 0%, rgba($color, $second-stop-2-opacity) $second-stop-2-percentage, rgba($color, 0) $second-stop-3-percentage);
+            z-index: $z-index;
+            pointer-events: none;
+        }
+    }
+}
+
+/* ==================== FOCUS STYLES ==================== */
+@mixin focus-styles() {
+    outline: 2px solid $focus-color !important;
+    outline-offset: 1.5px !important;
+    opacity: 1 !important;
+}

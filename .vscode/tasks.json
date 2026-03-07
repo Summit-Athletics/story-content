@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "deploy",
+			"problemMatcher": [],
+			"label": "npm: deploy",
+			"detail": "aws s3 sync dist/ s3://DomainName.com --size-only --acl=public-read  --delete --cache-control='max-age=31536000' --exclude '*.html' --exclude '*.css' --exclude '*.js' && npm run css-js",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "npm",
+			"script": "deploy-dev",
+			"problemMatcher": [],
+			"label": "npm: deploy-dev",
+			"detail": "aws s3 sync dist/ s3://www.summitathletics-dev.com/ProjectFoler/DomainName --size-only --acl=public-read --delete --cache-control='max-age=0, no-cache' --exclude '*.html' --exclude '*.css' --exclude '*.js' && npm run html-dev"
+		},
+		{
+			"type": "npm",
+			"script": "live-dev",
+			"problemMatcher": [],
+			"label": "npm: live-dev",
+			"detail": "concurrently \"npm run deploy\" \"npm run deploy-dev\""
+		}
+	]
+}

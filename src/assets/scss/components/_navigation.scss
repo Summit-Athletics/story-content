@@ -1,0 +1,384 @@
+#main-nav {
+    // Bottom border
+    &::before {
+        position: absolute;
+        content: "";
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: $menu-border-btm-width;
+        background-color: $secondary;
+        z-index: 0;
+    }
+
+    // BURGER TOGGLE
+    .animated-toggler {
+        position: relative;
+        border: none;
+        width: 2.25rem;
+        height: 1.65rem;
+
+        // Stacked horizontal lines
+        &::before,
+        &::after,
+        .burger-mdl {
+            position: absolute;
+            right: 0;
+            width: 100%;
+            height: 2.5px;
+            background-color: $white;
+            transform: scaleX(1);
+            transform-origin: left;
+            transition:
+                width 0.2s ease-in-out,
+                transform 0.2s;
+        }
+
+        // TOP
+        &::before {
+            content: "";
+            top: 0;
+        }
+
+        // MIDDLE
+        .burger-mdl {
+            top: 50%;
+            transform: scaleX(1) translateY(-50%);
+            transition-delay: 0.08s;
+        }
+
+        // BOTTOM
+        &::after {
+            content: "";
+            bottom: 0;
+            transition-delay: 0.18s;
+        }
+
+        // Hover effect
+        &:hover {
+            &::before {
+                width: 2.85rem;
+            }
+
+            .burger-mdl {
+                width: 2.75rem;
+            }
+
+            &::after {
+                width: 2.45rem;
+            }
+        }
+
+        // Open effect
+        &.opened {
+            &::before,
+            &::after,
+            .burger-mdl {
+                transition-duration: 0.4s;
+                transform: scaleX(0);
+                transform-origin: left;
+            }
+
+            .burger-mdl {
+                transform: scaleX(0) translateY(-50%);
+                transition-delay: 0.1s;
+            }
+
+            &::after {
+                transition-delay: 0.2s;
+            }
+        }
+    }
+
+    .navbar-brand {
+        #sam-flag {
+            width: 2rem;
+
+            .cls-1 {
+                fill: $secondary;
+            }
+        }
+    }
+
+    .nav-item {
+        .nav-link {
+            text-transform: uppercase;
+        }
+
+        &.dropdown {
+            .dropdown-toggle {
+                &::after {
+                    transition: transform 0.25s ease-in-out;
+                    // transform-origin: top;
+                }
+            }
+        }
+    }
+
+    .offcanvas-header {
+        .btn-close {
+            transition: transform 0.25s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1) rotate(90deg);
+            }
+        }
+    }
+
+    /* ****************************************************** */
+    /*                         MOBILE                         */
+    /* ****************************************************** */
+    @include media-breakpoint-down(lg) {
+        height: $menu-height-mobile; // Mobile height
+
+        .navbar-brand {
+            #sam-flag {
+                width: 1.75rem;
+            }
+        }
+
+        #offcanvas-navbar {
+            .mobile-brand {
+                #sam-flag {
+                    width: 1.75rem;
+
+                    .cls-1 {
+                        fill: $secondary;
+                    }
+                }
+            }
+
+            .nav-item {
+                .nav-link {
+                    font-size: 1.2rem;
+                    transition: color 0.25s ease-in-out;
+
+                    &:hover {
+                        color: $secondary !important;
+                    }
+                }
+
+                &.dropdown {
+                    .dropdown-toggle {
+                        &.show {
+                            color: $secondary !important;
+
+                            &::after {
+                                transform: rotate(-180deg);
+                            }
+                        }
+                    }
+
+                    .dropdown-menu {
+                        display: block; // override BS
+                        max-height: 0;
+                        overflow: hidden;
+                        opacity: 0;
+                        transform: translateY(-4px);
+                        box-shadow: none;
+                        transition:
+                            max-height 0.3s ease,
+                            opacity 0.2s ease-in-out,
+                            transform 0.2s ease-in-out;
+
+                        &.show {
+                            max-height: 500px; // just needs to be "big enough"
+                            opacity: 1;
+                            transform: translateY(0);
+                        }
+
+                        .dropdown-item {
+                            position: relative;
+                            color: $white;
+                            font-size: 0.9rem;
+                            border-bottom: 2px solid $primary;
+                            z-index: 1;
+                            transition:
+                                color 0.25s,
+                                transform 0.25s;
+
+                            // Dropdown menu items on hover
+                            &:hover {
+                                background-color: transparent;
+
+                                // Add hover indicator for tablet - update second breakpoint accordingly
+                                @include media-breakpoint-between(sm, lg) {
+                                    color: $secondary;
+                                }
+                            }
+
+                            // Custom focus styles for dropdown menu items (tighter offset)
+                            &:focus-visible {
+                                background-color: transparent;
+                                outline-offset: -2px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* ****************************************************** */
+    /*                         DESKTOP                        */
+    /* ****************************************************** */
+    @include media-breakpoint-up(lg) {
+        height: $menu-height-desktop; // Desktop height
+
+        #offcanvas-navbar {
+            .nav-item {
+                .nav-link {
+                    height: $menu-height-desktop; // Make sure .nav-link is set to height of navbar
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: opacity 0.25s;
+
+                    // Active menu item
+                    &.active {
+                        opacity: 0.5;
+                    }
+                }
+
+                // For single page dropdown item (<a>)
+                .keyboard-dropdown-toggle {
+                    background-color: transparent;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0;
+
+                    // Dropdown indicator
+                    &::after {
+                        content: "";
+                        display: none;
+                        align-self: center;
+                        border-top: 0.3em solid;
+                        border-right: 0.3em solid transparent;
+                        border-bottom: 0;
+                        border-left: 0.3em solid transparent;
+                        color: $secondary;
+                        transition: transform 0.2s ease-in-out;
+                    }
+
+                    // Rotate when dropdown is expanded
+                    &[aria-expanded="true"] {
+                        &::after {
+                            transform: rotate(-180deg);
+                        }
+                    }
+                }
+
+                &.dropdown {
+                    .dropdown-toggle {
+                        // Remove pointer on <button> toggles (non-clickable)
+                        &[type="button"] {
+                            cursor: default;
+                        }
+
+                        // No focus styles when being hovered
+                        box-shadow: none !important;
+                        outline: none !important;
+
+                        &::after {
+                            display: none !important;
+                        }
+                    }
+
+                    .dropdown-menu {
+                        // DEFAULT FOR HOVERABLE DROPDOWN
+                        display: block !important;
+                        top: calc(100% - 2px);
+                        left: 50%;
+                        transform: translateX(-50%) scaleY(0);
+                        transform-origin: top center;
+                        opacity: 0;
+                        transition:
+                            transform 0.3s,
+                            opacity 0.3s;
+                        will-change: opacity, transform;
+                        // DEFAULT FOR HOVERABLE DROPDOWN
+
+                        .dropdown-item {
+                            position: relative;
+                            border-bottom: 2px solid $primary;
+                            position: relative;
+                            z-index: 1;
+                            transition:
+                                color 0.25s,
+                                background-color 0.25s;
+
+                            // Dropdown item on hover
+                            &:hover {
+                                background-color: $primary;
+                                color: $white;
+                            }
+
+                            &:focus-visible {
+                                background-color: $secondary;
+                            }
+                        }
+
+                        &.show {
+                            transform: translateX(-50%) scaleY(1);
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                // DEFAULT FOR HOVERABLE DROPDOWN
+                // Make sure .nav-item is the hover trigger
+                &:hover {
+                    .nav-link {
+                        opacity: 0.5;
+                    }
+                }
+                // DEFAULT FOR HOVERABLE DROPDOWN
+            }
+        }
+
+        /* ****************************************************** */
+        /*                    KEYBOARD TABBING                    */
+        /* ****************************************************** */
+        .keyboard-focus-mode & {
+            #offcanvas-navbar {
+                .dropdown-toggle {
+                    &:focus-visible {
+                        // Add focus styles back when being tabbed through
+                        @include focus-styles;
+                    }
+
+                    &[aria-expanded="true"] {
+                        &::after {
+                            transform: rotate(-180deg) !important;
+                        }
+                    }
+
+                    // Show default dropdown indicator when focused for <button> but not for <a>
+                    &[type="button"] {
+                        &:focus-visible,
+                        &[aria-expanded="true"] {
+                            &::after {
+                                display: inline-block !important;
+                                position: absolute;
+                                top: 50%;
+                                transform: translateY(-50%), rotate(-180deg);
+                                right: 3px;
+                            }
+                        }
+                    }
+                }
+
+                // Show dropdown indicator for single page item (<a>)
+                .keyboard-dropdown-toggle {
+                    &:focus-visible,
+                    &[aria-expanded="true"] {
+                        &::after {
+                            display: inline-block !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

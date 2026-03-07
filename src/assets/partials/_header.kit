@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="SITE NAME">
+  <meta name="keywords" content="tickets, athletics, athletic, football, basketball, sports, member, donate, <!-- $keywords? -->">
+  <link rel="apple-touch-icon" sizes="180x180" href="<!-- $path? -->assets/media/global/favicon/apple-touch-icon.webp">
+  <link rel="icon" type="image/webp" sizes="32x32" href="<!-- $path? -->assets/media/global/favicon/favicon-32x32.webp">
+  <link rel="icon" type="image/webp" sizes="16x16" href="<!-- $path? -->assets/media/global/favicon/favicon-16x16.webp">
+  <link rel="icon" type="image/webp" sizes="192x192" href="<!-- $path? -->assets/media/global/favicon/android-chrome-192x192.webp">
+  <link rel="icon" type="image/webp" sizes="512x512" href="<!-- $path? -->assets/media/global/favicon/android-chrome-512x512.webp">
+  <link rel="manifest" href="<!-- $path? -->assets/media/global/favicon/site.webmanifest">
+  <title>
+    <!-- $pageTitle? --> SITE NAME
+  </title>
+  <link rel="preload" href="<!-- $path? -->assets/fonts/bootstrap-icons.woff2" as="font" type="font/woff2" crossorigin>
+  <link href="<!-- $path? -->assets/css/main.css" rel="stylesheet">
+  <script type="module" src="<!-- $path? -->assets/js/main.js"></script>
+  <!-- $pageScript? -->
+  <!-- Conditionally insert test slug -->
+  <script type="module">
+    if (["summitathletics-dev.com", "www.summitathletics-dev.com"].includes(window.location.hostname)) {
+      document.head.appendChild(Object.assign(document.createElement("script"), {
+        type: "module",
+        src: "<!-- $path? -->assets/js/test-slug.js"
+      }));
+    }
+  </script>

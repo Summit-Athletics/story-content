@@ -1,0 +1,16 @@
+footer {
+    #footer-copyright {
+        // SAM flag
+        #sam-flag {
+            position: relative;
+            top: -2px;
+            margin: 0 2px;
+            height: 30px;
+            width: 21px;
+
+            .cls-1 {
+                fill: $primary;
+            }
+        }
+    }
+}

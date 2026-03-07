@@ -1,0 +1,24 @@
+#cookies-alert {
+    background-color: rgba($white, 0.985);
+    opacity: 0;
+    margin-bottom: -2rem;
+    transition: opacity 0.3s ease-in-out, margin-bottom 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: -1;
+
+    .close {
+        @include media-breakpoint-down(lg) {
+            width: -webkit-fill-available;
+        }
+
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    &.visible {
+        opacity: 1;
+        transform: translateY(0);
+        margin-bottom: 2rem;
+        z-index: 999;
+    }
+}
