@@ -15757,27 +15757,27 @@
       "oAP" : "\/dist\/index.html",
       "oF" : 0
     },
-    "\/src\/stories\/adam-sinn.kit" : {
-      "cB" : 1,
-      "ft" : 2048,
-      "hM" : 1,
-      "oA" : 0,
+    "\/src\/stories\/adam-sinn.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
       "oAP" : "\/dist\/stories\/adam-sinn.html",
       "oF" : 0
     },
-    "\/src\/stories\/leveon-moss.kit" : {
-      "cB" : 1,
-      "ft" : 2048,
-      "hM" : 1,
-      "oA" : 0,
+    "\/src\/stories\/leveon-moss.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
       "oAP" : "\/dist\/stories\/leveon-moss.html",
       "oF" : 0
     },
-    "\/src\/stories\/terrence-kiel.kit" : {
-      "cB" : 1,
-      "ft" : 2048,
-      "hM" : 1,
-      "oA" : 0,
+    "\/src\/stories\/terrence-kiel.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
       "oAP" : "\/dist\/stories\/terrence-kiel.html",
       "oF" : 0
     }

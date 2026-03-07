@@ -1,56 +1,62 @@
 [
   {
+    "slug": "terrence-kiel",
     "id": "terrenceKiel",
     "edition": "Fall 2025",
     "title": "Terrence Kiel II '28",
     "preview": "Texas A&M Baseball student-athlete embraces opportunity and continues Aggie family legacy",
     "thumbnail": "assets/media/pages/index/story-thumb.webp",
     "imgAlt": "Terrence Kiel II posing ",
-    "storyLink": "stories/terrence-kiel/index.html"
+    "storyLink": "/donor-impact/stories/story.html?story=terrence-kiel"
   },
   {
+    "slug": "leveon-moss",
     "id": "leveonMoss",
     "edition": "Fall 2025",
     "title": "Le'Veon Moss '26",
     "preview": "All-SEC running back finds provision and purpose through Aggie Football",
     "thumbnail": "assets/media/pages/index/story-thumb.webp",
     "imgAlt": "Le'Veon Moss posing ",
-    "storyLink": "stories/leveon-moss/index.html"
+    "storyLink": "/donor-impact/stories/story.html?story=leveon-moss"
   },
   {
+    "slug": "jane-wright",
     "id": "janeWright",
     "edition": "Fall 2025",
     "title": "Jane H. Wright '76",
     "preview": "Commemorating the first female former student-athlete to make seven-figure gift in support of Texas A&M Athletics",
     "thumbnail": "assets/media/pages/index/story-thumb.webp",
     "imgAlt": "Jane H. Wright '76 posing next ot tennis court",
-    "storyLink": "stories/jane-wright/index.html"
+    "storyLink": "/donor-impact/stories/story.html?story=jane-wright"
   },
   {
+    "slug": "bucky-mcmillan",
     "id": "buckyMcmillan",
     "edition": "Fall 2025",
     "title": "Bucky McMillan",
     "preview": "A new era of Texas A&M Men's Basketball",
     "thumbnail": "assets/media/pages/index/story-thumb.webp",
     "imgAlt": "Bucky McMillan standing with basketball",
-    "storyLink": "stories/bucky-mcmillan/index.html"
+    "storyLink": "/donor-impact/stories/story.html?story=bucky-mcmillan"
   },
   {
+    "slug": "built-to-serve",
     "id": "builtToServe",
     "edition": "Fall 2025",
     "title": "Built to Serve",
     "preview": "From ticket sales to major gifts, three dedicated staff members have grown into new roles advancing the 12th Man Foundation's mission",
     "thumbnail": "assets/media/pages/index/story-thumb.webp",
     "imgAlt": "Built to Serve sales team",
-    "storyLink": "stories/built-to-serve/index.html"
+    "storyLink": "/donor-impact/stories/story.html?story=built-to-serve"
   },
   {
+    "slug": "amy-tim-leach",
     "id": "amyTimLeach",
     "edition": "Fall 2025",
     "title": "Amy '84 & Tim Leach '82",
     "preview": "2024 E. King Gill Award Honorees",
     "thumbnail": "assets/media/pages/index/story-thumb.webp",
     "imgAlt": "Amy and Tim Leach standing on aggie football field",
-    "storyLink": "stories/amy-tim-leach/index.html"
+    "storyLink": "/donor-impact/stories/story.html?story=amy-tim-leach"
   }
 ]
