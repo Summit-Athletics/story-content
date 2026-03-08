@@ -39,7 +39,7 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/dist\/package-lock.json",
-      "oF" : 0,
+      "oF" : 1,
       "oO" : 0,
       "oS" : 1
     },
@@ -47,7 +47,7 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/dist\/package.json",
-      "oF" : 0,
+      "oF" : 1,
       "oO" : 0,
       "oS" : 1
     },
@@ -55,7 +55,7 @@
       "ft" : 524288,
       "oA" : 2,
       "oAP" : "\/dist\/assets\/data\/stories.json",
-      "oF" : 1,
+      "oF" : 0,
       "oO" : 0,
       "oS" : 1
     },
@@ -15857,7 +15857,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/src\/assets\/media\/global\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 794639601.43787205
+    "lastBuiltDate" : 794640351.90736306
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -17120,7 +17120,7 @@
     },
     "esLintSourceType" : 0,
     "externalServerAddress" : "http:\/\/localhost:8888",
-    "gitIgnoreBuildFolder" : 1,
+    "gitIgnoreBuildFolder" : 0,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
     "languageDefaultsCOFFEE" : {
@@ -17201,7 +17201,7 @@
       "transpilerStyle" : 0
     },
     "languageDefaultsJSON" : {
-      "autoOutputAction" : 1,
+      "autoOutputAction" : 2,
       "autoOutputPathFilenamePattern" : "*.json",
       "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "",
