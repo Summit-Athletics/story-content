@@ -23,6 +23,12 @@
       "oAP" : "\/dist\/.vscode",
       "oF" : 0
     },
+    "\/dist" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/dist\/dist",
+      "oF" : 0
+    },
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 1,
@@ -47,9 +53,9 @@
     },
     "\/src\/assets\/data\/stories.json" : {
       "ft" : 524288,
-      "oA" : 1,
+      "oA" : 2,
       "oAP" : "\/dist\/assets\/data\/stories-min.json",
-      "oF" : 0,
+      "oF" : 1,
       "oO" : 0,
       "oS" : 1
     },
