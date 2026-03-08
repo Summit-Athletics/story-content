@@ -1,8 +1,0 @@
-.responsive-video-container {
-    // Ensures all subsequent videos are positioned absolute to initial video
-    video:not(:first-of-type) {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-}
