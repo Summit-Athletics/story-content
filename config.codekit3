@@ -15757,12 +15757,36 @@
       "oAP" : "\/dist\/index.html",
       "oF" : 0
     },
-    "\/src\/stories\/adam-sinn.html" : {
+    "\/src\/stories\/amy-tim-leach.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/stories\/adam-sinn.html",
+      "oAP" : "\/dist\/stories\/amy-tim-leach.html",
+      "oF" : 0
+    },
+    "\/src\/stories\/bucky-mcmillan.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/stories\/bucky-mcmillan.html",
+      "oF" : 0
+    },
+    "\/src\/stories\/built-to-serve.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/stories\/built-to-serve.html",
+      "oF" : 0
+    },
+    "\/src\/stories\/jane-wright.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/stories\/jane-wright.html",
       "oF" : 0
     },
     "\/src\/stories\/leveon-moss.html" : {
