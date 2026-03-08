@@ -15,6 +15,12 @@
       "oAP" : "\/dist\/.vscode",
       "oF" : 0
     },
+    "\/dist" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/dist\/dist",
+      "oF" : 0
+    },
     "\/src\/assets\/data\/stories.json" : {
       "ft" : 524288,
       "oA" : 2,
@@ -313,7 +319,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "meme-ceiling",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 794691101.60367298
+    "lastBuiltDate" : 794691834.07936502
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
