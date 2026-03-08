@@ -16,7 +16,9 @@
     "edition": "Fall 2025",
     "title": "Le'Veon Moss '26",
     "preview": "All-SEC running back finds provision and purpose through Aggie Football",
-    "thumbnail": "assets/media/pages/index/story-thumb.webp",
+    "thumbnail": "leveon-moss-thumb.webp",
+    "landscapeImg": "leveon-moss-landscape.webp",
+    "portraitImg":"leveon-moss-portrait.webp",
     "imgAlt": "Le'Veon Moss posing "
   },
   {
@@ -25,7 +27,9 @@
     "edition": "Fall 2025",
     "title": "Jane H. Wright '76",
     "preview": "Commemorating the first female former student-athlete to make seven-figure gift in support of Texas A&M Athletics",
-    "thumbnail": "assets/media/pages/index/story-thumb.webp",
+    "thumbnail": "jane-wright-thumb.webp",
+    "landscapeImg": "jane-wright-landscape.webp",
+    "portraitImg":"jane-wright-portrait.webp",
     "imgAlt": "Jane H. Wright '76 posing next ot tennis court"
   },
   {
