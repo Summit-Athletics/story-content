@@ -38,7 +38,7 @@
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/dist\/package-lock-min.json",
+      "oAP" : "\/dist\/package-lock.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -46,7 +46,7 @@
     "\/package.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/dist\/package-min.json",
+      "oAP" : "\/dist\/package.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -54,7 +54,7 @@
     "\/src\/assets\/data\/stories.json" : {
       "ft" : 524288,
       "oA" : 2,
-      "oAP" : "\/dist\/assets\/data\/stories-min.json",
+      "oAP" : "\/dist\/assets\/data\/stories.json",
       "oF" : 1,
       "oO" : 0,
       "oS" : 1
@@ -15857,7 +15857,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/src\/assets\/media\/global\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 794638565.29357004
+    "lastBuiltDate" : 794639601.43787205
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -17202,7 +17202,7 @@
     },
     "languageDefaultsJSON" : {
       "autoOutputAction" : 1,
-      "autoOutputPathFilenamePattern" : "*-min.json",
+      "autoOutputPathFilenamePattern" : "*.json",
       "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
