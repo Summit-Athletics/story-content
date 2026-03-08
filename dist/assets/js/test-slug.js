@@ -1,0 +1,62 @@
+!function(){"use strict";const l=undefined,f=String.raw`
+    <div
+        class="test-slug"
+        style="display: flex; justify-content: center; align-items-center: center; min-width: 100vw; background-color: magenta; height: 28px; position: fixed; bottom: 0; z-index: 9999; opacity: 0; transition: opacity 1s;"
+    >
+        <!-- SAM Flag -->
+        <a href="https://www.summitathletics.com" target="_blank" rel="noopener noreferrer" title="Summit Athletic Media">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287.21 408.5" style="width: 0.8em !important; margin-right: 6px;">
+                <g class="Layer_2" data-name="Layer 2">
+                    <g class="Layer_1-2" data-name="Layer 1">
+                        <path
+                            class="slug-flag-cls-1"
+                            d="M286.74 0a90.22 90.22 0 01-17.62 21.91c-14.23 12.45-41.73 17.3-71.42 15.84-24-1.18-39.62-7.46-55.75-14C108.4 10.26 78.23 3 44.63 20c-.17 0-13.32-13.31-20-14A18.2 18.2 0 005 19.3L1.27 33.52a34.86 34.86 0 00-.92 14l.71 4.88 46.15 313.12L77 408.5l15.2-48.59-19.47-132.08c-3.61 7.45-6.37 16.41-4.92 25.06L83.55 361l-4.42 12.83a16.94 16.94 0 00-12.43 2.6l-8.41-12.25c0-.18.27-4 5.4-8.11 3.43-2.76 9.1-3.71 10.25-3.49l-14.55-98.69c-2-12-1.06-22 5.37-32.71 2.4-4 24.47-40.32 92.82-62.09 19-6 59.85-19.35 83-33.61 35-21.54 44.51-80.92 45.93-95S286.74 0 286.74 0zM16.17 40.38a16 16 0 01.32-6.75l3.77-14.23a1.84 1.84 0 013.24-.54l8.31 10.22zm126.22 75.91l-.33 2.49s-2.26 11-17.66 20.91c0 0-14.6 9.41-30.54 9.18 0 0-10.29-.1-17.53-6.68a23.71 23.71 0 01-4.66-5.54 17.6 17.6 0 01-1.25-15.76 29 29 0 0114.72-15.35c.12-.05 9.47-4.31 17.54-1.39 2.78 1 4.6 2.22 5.71 3.8 3.18 4.51.78 10.64-5.4 13.61-5.26 2.54-10 1.83-14.55-2.08l-1.51-1.27-.73 1.79c0 .08-2.31 5.74.71 10.69a14.58 14.58 0 008.14 5.9c.85.38 10.27 3.44 20.56-4.59.09 0 7.9-5.76 7.71-14.33a15.09 15.09 0 00-2.74-9.75 25.48 25.48 0 00-6.52-6.59h.08c-.14-.1-3-2.41-16.12-8.1a91.94 91.94 0 01-14.34-7.56l-.57-.37-1-.72a49.62 49.62 0 01-21.39 6.92c-10.9 1-12.13-6-12.17-6.29v-.06c-1.42-4.87 4.53-8 4.8-8.11 6.45-3.28 10 .54 10.16.7a3.88 3.88 0 01.78 4.56l-.91 1.44 1.25.13c5.29.13 13.3-3.8 13.79-4a17.72 17.72 0 01-3.7-10c0-.07.21-10.12 9.61-18.66.14-.14 9-8.33 19.78-9.89 0 0 9.59-2 15.3 3.19a8.37 8.37 0 01.68.84c1.38 1.9 3.93 7-.85 14A62.84 62.84 0 01101 74.58L98.27 76l3.47 1.44c.18.1 3.46 1.11 9 3.59.14 0 12.38 5.15 19.28 9.7a29.41 29.41 0 017.65 7.66 30.23 30.23 0 014.87 11.31 28.93 28.93 0 01-.15 6.59z"
+                            fill="#ffffff"
+                        />
+                        <path
+                            class="slug-flag-cls-1"
+                            d="M106.2 61.71c1-2.39.91-4.78.12-6l-.1-.16a3.45 3.45 0 00-2.17-1.15c-4.16-.33-8.44 4.14-8.44 4.14a14.53 14.53 0 00-4.11 9.83A10.63 10.63 0 0092.8 73s9.2-5.59 13.4-11.29z"
+                            fill="#ffffff"
+                        />
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <!-- 'SUMMIT TEST SITE' -->
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 151.8 12.4" style="width: 8em !important;">
+            <g>
+                <g id="Layer_1">
+                    <g>
+                        <path
+                            class="slug-text-cls-1"
+                            d="M-.2,10.2l1.5-1.7c1,.8,2.1,1.4,3.3,1.4s1.6-.4,1.6-1.1h0c0-.7-.4-1-2.3-1.5C1.7,6.7.2,6.1.2,3.9H.2C.2,1.8,1.9.4,4.1.4s3,.5,4.2,1.4l-1.3,1.9c-1-.7-2-1.1-2.9-1.1s-1.4.4-1.4,1h0c0,.8.5,1,2.4,1.5,2.3.6,3.6,1.4,3.6,3.4h0c0,2.3-1.7,3.5-4.1,3.5s-3.4-.6-4.8-1.8Z"
+                            fill="#ffffff"
+                        />
+                        <path class="slug-text-cls-1" d="M10.6,7V.6h2.5v6.3c0,1.8.9,2.8,2.4,2.8s2.4-.9,2.4-2.7V.6h2.5v6.3c0,3.4-1.9,5.1-4.9,5.1s-4.9-1.7-4.9-5Z" fill="#ffffff" />
+                        <path class="slug-text-cls-1" d="M22.9.6h2.7l2.9,4.7,2.9-4.7h2.7v11.2h-2.4v-7.3l-3.2,4.8h0l-3.1-4.7v7.3h-2.4V.6Z" fill="#ffffff" />
+                        <path class="slug-text-cls-1" d="M36.8.6h2.7l2.9,4.7,2.9-4.7h2.7v11.2h-2.4v-7.3l-3.2,4.8h0l-3.1-4.7v7.3h-2.4V.6Z" fill="#ffffff" />
+                        <path class="slug-text-cls-1" d="M50.8.6h2.5v11.2h-2.5V.6Z" fill="#ffffff" />
+                        <path class="slug-text-cls-1" d="M58.6,2.9h-3.4V.6h9.3v2.3h-3.4v8.9h-2.5V2.9Z" fill="#ffffff" />
+                        <path class="slug-text-cls-1" d="M73.8,2.9h-3.4V.6h9.3v2.3h-3.4v8.9h-2.5V2.9Z" fill="#ffffff" />
+                        <path class="slug-text-cls-1" d="M81.6.6h8.5v2.2h-6v2.3h5.3v2.2h-5.3v2.4h6.1v2.2h-8.5V.6Z" fill="#ffffff" />
+                        <path
+                            class="slug-text-cls-1"
+                            d="M91.5,10.2l1.5-1.7c1,.8,2.1,1.4,3.3,1.4s1.6-.4,1.6-1.1h0c0-.7-.4-1-2.3-1.5-2.3-.6-3.7-1.2-3.7-3.4h0c0-2.1,1.6-3.4,3.9-3.4s3,.5,4.2,1.4l-1.3,1.9c-1-.7-2-1.1-2.9-1.1s-1.4.4-1.4,1h0c0,.8.5,1,2.4,1.5,2.3.6,3.6,1.4,3.6,3.4h0c0,2.3-1.7,3.5-4.1,3.5s-3.4-.6-4.8-1.8Z"
+                            fill="#ffffff"
+                        />
+                        <path class="slug-text-cls-1" d="M104.9,2.9h-3.4V.6h9.3v2.3h-3.4v8.9h-2.5V2.9Z" fill="#ffffff" />
+                        <path
+                            class="slug-text-cls-1"
+                            d="M116.7,10.2l1.5-1.7c1,.8,2.1,1.4,3.3,1.4s1.6-.4,1.6-1.1h0c0-.7-.4-1-2.3-1.5-2.3-.6-3.7-1.2-3.7-3.4h0c0-2.1,1.6-3.4,3.9-3.4s3,.5,4.2,1.4l-1.3,1.9c-1-.7-2-1.1-2.9-1.1s-1.4.4-1.4,1h0c0,.8.5,1,2.4,1.5,2.3.6,3.6,1.4,3.6,3.4h0c0,2.3-1.7,3.5-4.1,3.5s-3.4-.6-4.8-1.8Z"
+                            fill="#ffffff"
+                        />
+                        <path class="slug-text-cls-1" d="M127.8.6h2.5v11.2h-2.5V.6Z" fill="#ffffff" />
+                        <path class="slug-text-cls-1" d="M135.7,2.9h-3.4V.6h9.3v2.3h-3.4v8.9h-2.5V2.9Z" fill="#ffffff" />
+                        <path class="slug-text-cls-1" d="M143.4.6h8.5v2.2h-6v2.3h5.3v2.2h-5.3v2.4h6.1v2.2h-8.5V.6Z" fill="#ffffff" />
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </div>
+`,s=document.body;s.insertAdjacentHTML("beforeend",f),s.style.marginBottom="28px",requestAnimationFrame((()=>{function l(l){s.style.marginBottom=l.matches?"28px":""}const f=document.querySelector(".test-slug");f&&(f.style.opacity="1");const s=document.querySelector("#main-nav .offcanvas");if(!s)return;const t=window.matchMedia("(max-width: 991.98px)");l(t),t.addEventListener("change",l)}))}();
+//# sourceMappingURL=test-slug.js.map
