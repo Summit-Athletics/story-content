@@ -322,7 +322,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/amy-tim-leach\/amy-tim-leach-landscape.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -335,7 +335,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/amy-tim-leach\/amy-tim-leach-portrait.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -348,7 +348,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/amy-tim-leach\/amy-tim-leach-thumb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -361,7 +361,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/bucky-mcmillan\/bucky-mcmillan-landscape.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -374,7 +374,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/bucky-mcmillan\/bucky-mcmillan-portrait.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -387,7 +387,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/bucky-mcmillan\/bucky-mcmillan-thumb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -426,7 +426,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/jane-wright\/jane-wright-landscape.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -439,7 +439,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/jane-wright\/jane-wright-portrait.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -452,7 +452,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/jane-wright\/jane-wright-thumb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -465,7 +465,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/leveon-moss\/leveon-moss-landscape.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -478,7 +478,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/leveon-moss\/leveon-moss-portrait.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -491,7 +491,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/leveon-moss\/leveon-moss-thumb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -16039,7 +16039,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/src\/assets\/media\/global\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 794640351.90736306
+    "lastBuiltDate" : 794641684.19266403
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
