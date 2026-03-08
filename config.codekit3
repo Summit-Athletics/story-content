@@ -314,6 +314,45 @@
       "q" : 80,
       "rq" : 75
     },
+    "\/src\/assets\/media\/stories\/terrence-kiel\/terrence-kiel-landscape.jpg" : {
+      "ft" : 16384,
+      "iS" : 44999,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/media\/stories\/terrence-kiel\/terrence-kiel-landscape.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/src\/assets\/media\/stories\/terrence-kiel\/terrence-kiel-portrait.jpg" : {
+      "ft" : 16384,
+      "iS" : 76841,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/media\/stories\/terrence-kiel\/terrence-kiel-portrait.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/src\/assets\/media\/stories\/terrence-kiel\/terrence-kiel-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 128615,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/media\/stories\/terrence-kiel\/terrence-kiel-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 80,
+      "rq" : 75
+    },
     "\/src\/assets\/partials" : {
       "ft" : 65536,
       "oA" : 1,
