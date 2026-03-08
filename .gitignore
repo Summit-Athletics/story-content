@@ -1,5 +1,5 @@
 # ignore the dist folder in the root folder
-/dist
+# /dist
 
 # ignore the node_modules folder in the root folder
 /node_modules

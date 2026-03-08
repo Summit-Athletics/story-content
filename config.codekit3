@@ -23,12 +23,6 @@
       "oAP" : "\/dist\/.vscode",
       "oF" : 0
     },
-    "\/dist" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/dist\/dist",
-      "oF" : 0
-    },
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 1,
@@ -322,7 +316,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/terrence-kiel\/terrence-kiel-landscape.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -335,7 +329,7 @@
       "oAP" : "\/dist\/assets\/media\/stories\/terrence-kiel\/terrence-kiel-portrait.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
@@ -15857,7 +15851,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/src\/assets\/media\/global\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 794612558.95714295
+    "lastBuiltDate" : 794637778.00363398
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
