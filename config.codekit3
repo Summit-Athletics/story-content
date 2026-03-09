@@ -21,6 +21,14 @@
       "oAP" : "\/dist\/dist",
       "oF" : 0
     },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/dist\/package.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/src\/assets\/data\/stories.json" : {
       "ft" : 524288,
       "oA" : 2,
@@ -319,7 +327,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "meme-ceiling",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 794692374.14511597
+    "lastBuiltDate" : 794695240.37758505
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

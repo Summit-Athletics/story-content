@@ -1,0 +1,6 @@
+{
+  "name": "story-content",
+  "scripts": {
+    "dev": "npx http-server dist -p 3000 --cors"
+  }
+}
