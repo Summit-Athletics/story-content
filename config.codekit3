@@ -628,7 +628,8 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::development"
+      "NODE_ENV:::development",
+      "SITE_URL:::https:\/\/www.story-content"
     ],
     "esLintConfigFileHandlingType" : 1,
     "esLintECMAVersion" : 7,
