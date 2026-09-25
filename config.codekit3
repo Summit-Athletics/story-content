@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34564",
   "files" : {
+    "\/generate-sitemap.sh" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/generate-sitemap.sh",
+      "oF" : 0
+    },
     "\/.vscode" : {
       "ft" : 65536,
       "oA" : 1,
