@@ -10,7 +10,9 @@
 #   - SITE_URL should be configured as a CodeKit environment
 #     variable.
 #
-# Pages containing a robots noindex directive are excluded.
+# Excluded: Kit partials (anything under a partials/ folder or
+# src/assets/, or prefixed with "_") and pages containing a
+# robots noindex directive.
 # ============================================================
 
 set -e
@@ -134,7 +136,9 @@ done < <(
         -type f \
         -name "*.kit" \
         ! -name "_*.kit" \
-        ! -path "*/_*/*"
+        ! -path "*/_*/*" \
+        ! -path "$SOURCE_DIR/assets/*" \
+        ! -path "*/partials/*"
 )
 
 
